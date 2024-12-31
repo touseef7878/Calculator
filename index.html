@@ -13,7 +13,9 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #e0f7fa;
+            background-image: url('https://img.freepik.com/free-vector/math-background_23-2148146269.jpg'); /* Replace with your image URL */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the image */
             animation: fadeIn 2s;
         }
 
@@ -27,7 +29,7 @@
         }
 
         .calculator {
-            background: #ffffff;
+            background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
             border: 3px solid black;
             border-radius: 12px;
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
@@ -130,8 +132,8 @@
 <body>
     <!--Calculator Box-->
     <div class="calculator">
-        <h3>Created with ❤ by Touseef  </h1>
-            <!--Display Part-->
+        <h3>Created with ❤ by Touseef</h3>
+        <!--Display Part-->
         <input type="text" class="display" id="display" disabled>
         <!--Buttons of Calculator-->
         <div class="buttons">
@@ -140,7 +142,7 @@
             <button onclick="appendValue('9')">9</button>
             <button onclick="appendValue('/')">/</button>
 
-            <button onclick="appendValue('4')">4</button>
+            <button onclick="append Value('4')">4</button>
             <button onclick="appendValue('5')">5</button>
             <button onclick="appendValue('6')">6</button>
             <button onclick="appendValue('*')">*</button>
